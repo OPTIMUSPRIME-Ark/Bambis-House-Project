@@ -3,8 +3,16 @@
     padding: 0;
 }
 
+.Caixa {
+    display: flex;
+}
+
 .Nav_Header {
     background-color:#a0eb10;
     width: 100%;
     height: 7vh;
+}
+
+input ul {
+    display: none;
 }
