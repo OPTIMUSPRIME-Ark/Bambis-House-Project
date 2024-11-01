@@ -13,6 +13,8 @@
     height: 7vh;
 }
 
-input ul {
+#menuID ul {
     display: none;
+    list-style: none;
+    position:absolute;
 }
