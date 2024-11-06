@@ -13,8 +13,12 @@
     height: 7vh;
 }
 
-#menuID ul {
+.Caixa ul {
     display: none;
     list-style: none;
     position:absolute;
+}
+
+#menuID:checked ~ .menu {
+    display: block;
 }
