@@ -5,6 +5,7 @@
 
 .Caixa {
     display: flex;
+    align-items: center;
 }
 
 .Nav_Header {
