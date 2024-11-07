@@ -3,34 +3,50 @@
     padding: 0;
 }
 
-.Caixa {
-    justify-content: space-between;
-}
-
 .Nav_Header {
     display: flex;
     background-color:#a0eb10;
     width: 100%;
-    height: 7vh;
+    height: 60px;
     align-items: center;
 }
 
-.Caixa .menu {
+.menu {
     position:absolute;
     display: none;
-    list-style: none;;
+    list-style: none;
+    top:60px;
 }
 
 #meuImg {
     height:40px;
     width: min-content;
+    border-radius: 5px;
 }
 
 #menuID {
-    position: absolute;
-    left: 2px;
+    display:contents;
+    left: 4px;
 }
 
 #menuID:checked ~ .menu {
+    position: absolute;
     display: block;
+    top:115%
+}
+
+#menuID:hover {
+    animation-name: timingMenu;
+    animation-duration: 2s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+}
+
+@keyframes timingMenu {
+    from {
+        background-color: #a0eb10;
+    }
+    to {
+        background-color: grey;
+    }
 }
