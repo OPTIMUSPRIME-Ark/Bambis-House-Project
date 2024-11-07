@@ -21,10 +21,9 @@
     list-style: none;;
 }
 
-#buttonMenu {
+#meuImg {
     height:40px;
-    width: 40px;
-    background-image: url(./image/Sem\ título.png);
+    width: min-content;
 }
 
 #menuID {
