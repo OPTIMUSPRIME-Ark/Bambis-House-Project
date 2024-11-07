@@ -46,13 +46,13 @@
 }
 
 @keyframes timingMenu {
-    from {
+    0% {
         background-color: #a0eb10;
     }
     50% {
         background-color: grey;
     }
-    to {
+    100% {
         background-color: #a0eb10;
     }
 }
