@@ -21,14 +21,15 @@
 }
 
 #menuImg {
+    position:relative;
     height:40px;
     width: min-content;
     border-radius: 5px;
+    left: 1em;
 }
 
 #menuID {
     display:contents;
-    left: 10px;
 }
 
 #menuID:checked ~ .menu {
@@ -37,7 +38,7 @@
     top:115%
 }
 
-#menuID:hover {
+#menuImg:hover {
     animation-name: timingMenu;
     animation-duration: 2s;
     animation-direction: normal;
