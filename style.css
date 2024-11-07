@@ -49,7 +49,10 @@
     from {
         background-color: #a0eb10;
     }
-    to {
+    50% {
         background-color: grey;
+    }
+    to {
+        background-color: #a0eb10;
     }
 }
